@@ -1,0 +1,22 @@
+
+header {
+	
+}
+
+.caixa {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+    background: linear-gradient(#990066, #ff99cc);
+	padding: 20px 0;
+}
+
+.imagem__decoracao {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #ff99cc);
+}
