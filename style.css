@@ -4,7 +4,7 @@ body {
 
 nav li {
 	display: inline;
-	margin: 30px;
+	margin: 0 0 0 50px;
     padding: 40px;
     
 }
@@ -37,8 +37,18 @@ nav a:hover {
 }
 
 .mapa {
-	display: block;
-	background: linear-gradient(#FEFEFE, #ff99cc);
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #ff99cc);
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
 }
 
 footer {
