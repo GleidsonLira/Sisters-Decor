@@ -100,3 +100,17 @@ footer {
 	font-size: 13px;
 	margin: 20px 0 0;
 }
+
+main {
+
+}
+
+form {
+	margin: 40px 40px;
+}
+
+form label {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
