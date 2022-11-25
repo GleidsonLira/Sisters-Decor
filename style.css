@@ -4,7 +4,7 @@ body {
 }
 
 .caixa {
-	width: 1390px;
+	width: 100%;
 	background: linear-gradient(#990066, #ff99cc);
 	padding: 50px 0;
 }
@@ -68,20 +68,9 @@ nav a:hover {
 	font-style: italic;
 }
 
-footer {
-	text-align: center;
-	padding: 40px 0;
-	background-color: #990066;
-}
-
-.copyright {
-	color: #ffffff;
-	font-size: 13px;
-	margin: 20px 0 0;
-}
-
 form {
 	margin: 40px 40px;
+		
 }
 
 form label {
@@ -132,6 +121,10 @@ legend {
 
 /* CSS da Página inicial*/
 
+.banner {
+	width: 100%;
+}
+
 
 .titulo__principal {
 	text-align: center;
@@ -156,8 +149,7 @@ legend {
 }
 
 .imagem__decoracao {
-	padding-left: 60px;
-      
+	padding-left: 60px; 
 }
 
 .mapa {
@@ -165,7 +157,7 @@ legend {
     background: linear-gradient(#ffffff, #ff99cc);
 }
 
-.mapa-conteudo {
+.mapa__conteudo {
 	width: 940px;
 	margin: 0 auto;
 }
@@ -173,4 +165,31 @@ legend {
 .mapa p {
 	margin: 0 0 2em;
 	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 40px 0;
+	background-color: #990066;
+}
+
+.copyright {
+	color: #ffffff;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .mapa__conteudo {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
 }
