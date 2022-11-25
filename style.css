@@ -23,15 +23,23 @@ nav a:hover {
 }
 
 .produtos {
-	width: 940px;
+	width: 100%;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 150px 20px 150px 20px;
+	background: linear-gradient(#ff99cc, #990066);
+	text-align: center;
+	
 }
 
 .produtos li {
 	display: inline-block;
 	text-align: center;
-	
+	background: #C78C19;
+	margin: 2% 0.5%;
+	padding: 30px 20px; 
+	box-sizing: border-box;
+	border: 2px solid #D02090;
+	border-radius: 10px;
 }
 
 .produtos h2 {
@@ -39,8 +47,13 @@ nav a:hover {
 	font-weight: bold;
 }
 
+.produto__descricao {
+	font-size: 22px;
+	font-style: italic;
+}
+
 .caixa {
-	width: 100%;
+	width: 1390px;
 	background: linear-gradient(#990066, #ff99cc);
 	padding: 50px 0;
 }
