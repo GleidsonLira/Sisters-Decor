@@ -1,6 +1,6 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-	background: linear-gradient(#ff99cc, #990066);
+    font-family: 'Caveat', cursive;
+	
 }
 
 .caixa {
@@ -151,6 +151,8 @@ legend {
 .container {
 	display: flex;
 	align-items: center;
+	justify-content: space-around;
+	font-weight: bold;
 }
 
 .imagem__decoracao {
