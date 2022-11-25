@@ -3,6 +3,13 @@ body {
 	background: linear-gradient(#ff99cc, #990066);
 }
 
+.caixa {
+	width: 1390px;
+	background: linear-gradient(#990066, #ff99cc);
+	padding: 50px 0;
+}
+
+
 nav li {
 	display: inline;
 	margin: 0 0 0 50px;
@@ -61,35 +68,6 @@ nav a:hover {
 	font-style: italic;
 }
 
-.caixa {
-	width: 1390px;
-	background: linear-gradient(#990066, #ff99cc);
-	padding: 50px 0;
-}
-
-
-.imagem__decoracao {
-	display: inline-block;
-    float: left;
-	margin-left: 15%;
-    padding: 30px;
-}
-
-.mapa {
-    padding: 3em 0;
-    background: linear-gradient(#ffffff, #ff99cc);
-}
-
-.mapa-conteudo {
-	width: 940px;
-	margin: 0 auto;
-}
-
-.mapa p {
-	margin: 0 0 2em;
-	text-align: center;
-}
-
 footer {
 	text-align: center;
 	padding: 40px 0;
@@ -100,10 +78,6 @@ footer {
 	color: #ffffff;
 	font-size: 13px;
 	margin: 20px 0 0;
-}
-
-main {
-	
 }
 
 form {
@@ -152,4 +126,49 @@ legend {
 .enviar:hover {
 	background: #FF00FF;
 	transform: scale(1.1);
+}
+
+
+
+/* CSS da Página inicial*/
+
+
+.titulo__principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	
+}
+
+.principal p {	
+	margin: 0 0 1em;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+}
+
+.imagem__decoracao {
+	padding-left: 60px;
+      
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#ffffff, #ff99cc);
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
 }
